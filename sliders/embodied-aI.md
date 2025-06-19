@@ -19,10 +19,42 @@
 
 ## 2. 具身智能的研究范式
 
-- 感知（Perception）：视觉、听觉、触觉等多模态感知  <!-- .element: class="fragment" data-fragment-index="2" -->
-- 行动（Action）：运动控制、路径规划、操作技能 <!-- .element: class="fragment" data-fragment-index="3" -->
-- 认知（Cognition）：任务理解、决策、推理 <!-- .element: class="fragment" data-fragment-index="4" -->
-- 学习（Learning）：强化学习、模仿学习、自监督学习 <!-- .element: class="fragment" data-fragment-index="5" -->
+- 感知（Perception） <!-- .element: class="fragment" -->
+- 行动（Action） <!-- .element: class="fragment" -->
+- 认知（Cognition） <!-- .element: class="fragment" -->
+- 学习（Learning） <!-- .element: class="fragment" -->
+
+--
+
+### 感知（Perception）
+
+- 智能体通过视觉、听觉、触觉等多模态传感器获取环境信息 <!-- .element: class="fragment" -->
+- 例子：摄像头识别障碍物，麦克风感知声音，触觉传感器检测物体 <!-- .element: class="fragment" -->
+- 感知是智能体与环境互动的第一步 <!-- .element: class="fragment" -->
+
+--
+
+### 行动（Action）
+
+- 智能体根据感知结果做出运动控制、路径规划、操作等决策 <!-- .element: class="fragment" -->
+- 例子：机器人移动、机械臂抓取、无人车转弯 <!-- .element: class="fragment" -->
+- 行动能力决定了智能体能否有效影响环境 <!-- .element: class="fragment" -->
+
+--
+
+### 认知（Cognition）
+
+- 智能体对任务、环境和自身状态的理解与推理 <!-- .element: class="fragment" -->
+- 包括目标设定、决策制定、计划生成等 <!-- .element: class="fragment" -->
+- 例子：机器人规划清扫路径，理解复杂指令 <!-- .element: class="fragment" -->
+
+--
+
+### 学习（Learning）
+
+- 智能体通过与环境的交互不断优化自身行为 <!-- .element: class="fragment" -->
+- 包括强化学习、模仿学习、自监督学习等方法 <!-- .element: class="fragment" -->
+- 例子：机器人通过试错学会倒水，虚拟智能体在仿真环境中自我提升 <!-- .element: class="fragment" -->
 
 ---
 
@@ -88,6 +120,46 @@
 - 世界模型（World Models）
 - 多模态Transformer
 - 视觉-语言-动作模型（如RT-2）
+
+--
+
+### 端到端强化学习
+
+- 智能体直接从感知输入到动作输出，自动学习最优策略
+- 适合复杂环境下的自主决策
+- 例子：DeepMind的DQN、AlphaGo
+
+--
+
+### 层级强化学习
+
+- 将复杂任务分解为多个子任务，分层学习和决策
+- 提高学习效率和泛化能力
+- 例子：机器人先导航到房间，再抓取物体
+
+--
+
+### 世界模型（World Models）
+
+- 智能体内部构建环境的"模拟器"，预测未来状态
+- 支持规划、推理和更高效的学习
+- 例子：智能体先在脑中"想象"再行动
+
+--
+
+### 多模态Transformer
+
+- 同时处理视觉、语言、动作等多种信息
+- 利用Transformer结构实现跨模态理解和推理
+- 例子：视觉问答、图文导航
+
+--
+
+### 视觉-语言-动作模型（如RT-2）
+
+- 将视觉、语言和动作决策整合为统一模型
+- 支持复杂任务的端到端学习
+- 例子：谷歌RT-2机器人模型，能理解指令并执行操作
 
 ---
 
