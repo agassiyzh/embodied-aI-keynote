@@ -216,6 +216,11 @@
 
 ---
 
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114692185982041&bvid=BV1BsMqzgExn&cid=30527000121&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:90%;height:600px"></iframe>
+
+---
+
 ## 8. 竞赛与社区资源
 
 - AI Habitat Challenge
