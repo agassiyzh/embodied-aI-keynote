@@ -2,7 +2,7 @@ name: Deploy Reveal.js Slides to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
     branches: [ master ]
 
